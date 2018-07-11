@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <!--<TargetFrameworks>netcoreapp2.1;netcoreapp2.0;netstandard1.3</TargetFrameworks>-->
 		<TargetFramework>netstandard1.3</TargetFramework>
-    <Version>0.1.0</Version>
+    <Version>0.1.2</Version>
     <Company />
     <PackageId>Serilog.Sinks.Telegram</PackageId>
     <Authors>Carlo Zamagni</Authors>
@@ -24,7 +24,7 @@
   <ItemGroup>
     <PackageReference Include="Flurl" Version="2.7.1" />
     <PackageReference Include="Flurl.Http" Version="2.3.2" />
-    <PackageReference Include="serilog" Version="2.7.2-dev-01013" />
+    <PackageReference Include="Serilog" Version="2.7.1" />
   </ItemGroup>
 
 </Project>
