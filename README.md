@@ -1,6 +1,6 @@
 # Serilog.Sinks.Telegram
 
-Writes Serilog events to a given Telegram chat being it a private chat or a group.
+Writes [Serilog](https://serilog.net/) events to a given Telegram chat being it a private chat or a group.
 
 # Install
 ```
