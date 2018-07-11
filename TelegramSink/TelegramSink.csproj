@@ -5,9 +5,12 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <Version>0.1.0</Version>
     <Company />
-    <PackageId>serilog-sinks-telegram</PackageId>
+    <PackageId>Serilog.Sinks.Telegram</PackageId>
     <Authors>Carlo Zamagni</Authors>
     <Product>TeleSink</Product>
+    <PackageTags>telegram, serilog, sink, logging, log</PackageTags>
+    <Description>Telegram sink for Serilog</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
