@@ -81,3 +81,7 @@ The response should report the last conversations your bot had along with their 
     ]
 }
 ```
+
+**How can i run unit tests?**
+
+You need an api key and a chat id in order to run the unit tests. You can add them to the *Configuration/TestConfig.json* config file or (better solution) you can add another config file named */Configuration/TestConfig_private.json* and use it to store you secrets. This is the preferred solution if you want to make a pull request or fork & push the code to another repo since that path is already ignored.
